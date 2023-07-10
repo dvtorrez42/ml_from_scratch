@@ -79,7 +79,7 @@ class DecisionTreeClassifier:
     ## 1. Training ##
     
     ### Fit ###
-    def fit(self, X, y, loss_func = cross_entropy, max_depth=100, min_size=2, C=None)
+    def fit(self, X, y, loss_func = cross_entropy, max_depth=100, min_size=2, C=None):
     
         ## Add data
         self.X = X
